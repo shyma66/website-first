@@ -1,0 +1,72 @@
+.about__trial-all{
+    margin: auto;
+    background-color: var(--brightest-background-color);
+}
+
+.about__trial-partial{
+    padding-top: 160px;
+    padding-bottom : 160px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    margin-top: +1.2%;
+
+    background-image: url(../img/water_paralax_bottom.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about__trial{
+    padding-right: +12%;
+    margin : auto;
+    padding-left: 15px;
+}
+.about__text-trial{
+    font-size: var(--about-teg-size);
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about__rent-a-water{
+    font-size: var(--about-title-size);
+    font-family : var(--about-some-text);
+    color: var(--text-color);
+    font-weight: 800;
+    margin: 10px 0px;
+}
+.about__text-delivery{
+    color: var(--about-light-color);
+    font-size: var(--text-size);
+    word-wrap: break-word;
+}
+.about__start{
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: baseline;
+    text-align: center;
+    font-family: var(--button-font);
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-font-spacing);
+    font-weight: 700;
+    background-color: var(--light-button-color);
+    color: var(--button-font-color);
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 30px;
+    }
+.about__start:hover
+{
+    background-color: var(--text-color) ;
+    color: var(--dark-button-color);
+}
+.about__trial-wave{
+    transform: scaleY(-1) translateY(-100%);
+    margin-top: auto;
+}
+@media screen and (max-width: 768px){
+    .about__rent-a-water{
+    font-size: var(--about-mobile-title-size);
+    }
+}

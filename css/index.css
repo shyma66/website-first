@@ -1,0 +1,21 @@
+@import url(global.css);
+@import url(controls.css);
+/* 
+1. Everyone must write their own @import url('the name of their block or page that they created') 
+2  Add link to the style (there should be one link on each of the 3 pages)
+3. Create own css file in folder CSS.
+*/
+@import url(header-navbar.css); /* Kyrylo Suprun */
+@import url(index.header-hero.css); /*Yevhen Malyna*/
+@import url(index.products.css); /* Yurii Gridin */
+@import url(index.about-sparkle.css);/* Hurskyi Roman */
+@import url(index.delivery.css); /* Kyrylo Suprun */
+@import url(index.equipment.css); /*Aleksandr*/
+@import url(index.water-purifying-technology.css); /* Hurskyi Roman */
+@import url(index.fresh-water.css);/* Tate Lesiv */
+@import url(index.whatinside.css); /* Maryna Zamula */
+@import url(index.testimonials.css); /* Iryna Iasko */
+@import url(index.carousel-clients.css); /* Iryna Iasko */
+@import url(index.news.css);/* Diana Zaleska */
+@import url(index.contacts-main.css);/* Kutsyk Oleksandr */
+@import url(footer-navbar.css); /* Maksym Shylov */

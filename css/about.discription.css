@@ -1,0 +1,58 @@
+.description__natural-water{
+    background-color: var(--natural-water-background-color);
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+.description__title{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    color: var(--text-color);
+    margin: 50px 30px 10px 20px;
+}
+
+.description__text{
+    font-size: 1.0625rem;
+    text-align: left;
+    color: var(--text-color);
+    margin: 30px;
+}
+
+.description__link{
+    font-size: 0.9375rem;
+    color: var(--link-color);
+    margin: 50px 30px 10px 20px;
+}
+.description__rich-with-elements{
+    background-color: var(--even-more-dark-background-color);
+    width: auto;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+.description__award-winning-water{
+    background-color: var(--the-darkest-background-color);
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+.description__non-crafted_taste{
+    background-color: var(--non-crafter-background-color);
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media (min-width: 600px){
+.descriptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}

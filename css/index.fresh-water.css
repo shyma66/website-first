@@ -1,0 +1,162 @@
+.freshwater__container {
+    background: url('../img/two_glasses_of_water.jpg');
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    min-width: 338px;
+}
+.background__play-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--light-button-color);
+    border-radius: 50%;
+    position: relative;
+}
+.freshwater__play-icon {
+    width: 34px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.freshwater__info {
+    padding: 100px 24px 190px 24px;
+}
+
+.freshwater__icon-wrap {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    background-color: var(--light-button-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.freshwater__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.freshwater__facts {
+    display: grid;
+}
+
+.experience__fact {
+    background-color: var(--dark-background-color);
+}
+
+.anybottlesize__fact { 
+    background-color: var(--even-more-dark-background-color);
+}
+
+.quickdelivery__fact {
+    background-color: var(--the-darkest-background-color);
+}
+
+.experience__fact,
+.anybottlesize__fact,
+.quickdelivery__fact {
+    padding: 39px;
+    border: none;
+}
+
+.freshwater__title {
+    color: var(--dark-bg-color);
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 43.32px;
+}
+
+.freshwater__subtitle {
+    font-family: 'Nunito', sans-serif;
+    color: var(--text-color);
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 31.98px;
+}
+
+.freshwater__text {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--light-dark-text-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.8px;
+}
+.freshwater__description {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--bold-text-color);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 26.6px;
+}
+
+.freshwater__wave {
+    margin: 0;
+    padding: 0;
+    transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+    .freshwater__info {
+        padding: 190px 310px 190px 24px;
+    }
+    .freshwater__title {
+        font-size: 44px;
+    }
+    .freshwater__container {
+        height: 600px;
+    }
+    .freshwater__facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .experience__fact,
+    .anybottlesize__fact {
+        padding: 46px;
+    }
+
+    .quickdelivery__fact {
+        padding: 46px;
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .freshwater__info {
+        padding: 210px 24px 190px 24px;
+    }
+
+    .freshwater__title {
+        font-size: 55px;
+        padding: 10px 50px 10px 0px;
+    }
+    
+    .freshwater__container {
+        height: 700px;
+    }
+
+    .freshwater__facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .experience__fact,
+    .anybottlesize__fact,
+    .quickdelivery__fact {
+        padding: 60px;
+    }
+
+    .quickdelivery__fact {
+        padding: 60px;
+        grid-column: 3;
+        grid-row: 1;
+    }
+}

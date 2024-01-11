@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    width: 150px;
+    height: 45px; 
+    line-height: 45px;
+    vertical-align: baseline;
+    text-align: center;
+    font-family: var(--button-font);
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-font-spacing);
+    font-weight: 700;
+    background-color: var(--light-button-color);
+    color: var(--button-font-color);
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: var(--dark-button-color);
+}

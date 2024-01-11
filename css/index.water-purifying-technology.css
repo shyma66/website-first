@@ -1,0 +1,96 @@
+.water-technology {
+    background-color: var(--brightest-background-color);
+    margin: auto;
+    max-width: 1200px;
+}
+
+.water-technology__content {
+    margin: auto;
+}
+
+.water-technology__image-container {
+    margin: auto;
+}
+
+.water-technology__title {   
+    font-size: 12px;
+    display: block;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+
+.water-technology__text {
+    color: var(--description-text-color);
+    display: block;
+    font-size: 38px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 20px;}
+
+.water-technology__tagline {
+    color: var(--bold-text-color)
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 25px;}
+
+.water-technology__description {
+    var(--standart-text-color);
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;}
+
+.water-technology__description-second {
+    var(--standart-text-color);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.water-technology__link {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: baseline;
+    text-align: center;
+    font-family: var(--button-font);
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-font-spacing);
+    font-weight: 700;
+    background-color: var(--light-button-color);
+    color: var(--button-font-color);
+    border-radius: 25px;
+    text-decoration: none;
+    border: 1;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    margin-right: 15px;
+    margin-left: 15px;}
+
+.water-technology {
+    display: flex;
+    flex-direction: column;}
+
+@media (min-width: 768px) {
+    .water-technology {
+        flex-direction: row;}
+}
+
+.water-technology__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    justify-content: space-around;
+}
+
+.water-technology__image-container img {
+    height: 100%;
+    object-fit: cover;
+    background-position: 50% 50%}

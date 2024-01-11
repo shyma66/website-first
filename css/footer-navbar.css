@@ -1,0 +1,188 @@
+        /*footer*/
+.footer__navbar{
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--the-darkest-background-color);
+    color: var(--footer-title-color);
+}
+.footer__line-title{
+    opacity: 1;
+    border: 2px solid var(--footer-line-color);
+    width: 25px;
+    margin: 10px 0px 10px;
+}
+.footer__social,
+.footer__navigation,
+.footer__information,
+.footer__support,
+.footer__delivery{
+    padding: 22.5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.footer__all{
+    padding: 70px 10px 40px;
+    margin: auto
+}
+
+.footer__social{
+    width: 243px;
+    box-sizing: border-box;
+}
+.footer__social-logo{
+    width:173px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+.footer__social-text{
+    white-space: pre-line;
+    color: var(--footer-text-color);
+    font-size: var(--tag-text-size);
+    word-wrap: break-word;
+    margin: 2px 0px 0px ;
+}
+.footer__social-list{
+    list-style: none;
+    justify-content: space-between;
+    width:25px;
+    height:25px;
+    color:var(--the-darkest-background-color);
+    fill:var(--the-darkest-background-color);
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0}
+.footer__social-item{
+    margin: 0px 3px 0px;
+    padding: 3px 3px 30px;
+}
+.footer__navigation-title,
+.footer__information-title,
+.footer__support-title,
+.footer__delivery-title{
+    font-size:var(--head-text-size);
+}
+
+.footer__navigation-items,
+.footer__information-items ,
+.footer__support-items{
+    padding:0;
+    list-style: none;
+    color: var(--footer-text-color);
+    text-decoration: none;
+    font-size: var(--text-size);
+    font-weight: 600;
+}
+.footer__navigation-item,
+.footer__information-item ,
+.footer__support-item{
+    text-decoration: none;
+    color: var(--footer-text-color)
+}
+.footer__all_lists{
+    padding-top: 10px
+}
+.footer__navigation-item:visited,
+.footer__information-item:visited,
+.footer__support-item:visited{
+    color: var(--footer-text-color);
+    text-decoration: none;
+  }
+.footer__navigation-item:hover,
+.footer__information-item:hover,
+.footer__support-item:hover{
+    color: var(--footer-title-color);
+}
+.footer__navigation-item:active ,
+.footer__information-item:active,
+.footer__support-item:active{
+  color: var(--footer-title-color);
+}
+
+.footer__delivery-items{
+    list-style: none;
+    color: var(--accent-color);
+    font-size: var(--tag-text-size);
+    text-decoration: underline;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.footer__line-bottom{
+  background-color: var(--footer-text-color);
+  border-color: var(--footer-title-color);
+  margin-top: 40px;
+  opacity: .25;
+}
+.footer__created-left,
+.footer__created-right{
+    font-size: var(--footer-text-size)
+    padding: 10px;
+    margin-top: 15px;
+}
+.footer__created-by{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+@media screen and (max-width: 992px){
+    .footer__social,
+    .footer__navigation,
+    .footer__information,
+    .footer__support,
+    .footer__delivery{
+        margin: 0;
+        padding: 13px;
+    }
+    .footer__navigation-title,
+.footer__information-title,
+.footer__support-title,
+.footer__delivery-title{
+    font-size:var(--footer-mobile-title-size);
+}
+@media screen and (max-width: 768px) {
+    .footer__social,
+    .footer__navigation,
+    .footer__information,
+    .footer__support,
+    .footer__delivery{
+        display: block;
+    }
+    .footer__all_lists,
+    .footer__line-title,
+    .footer__navigation-title,
+    .footer__information-title,
+    .footer__support-title,
+    .footer__delivery-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__social-logo{
+        margin: auto;
+        text-align: center;
+    }
+    .footer__social-text{
+        display: inline-block;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .footer__social-list{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__created-by{
+        white-space: normal;
+        display: block;
+        text-align: center;
+    }
+}
+.footer__name-of-city{
+    margin-bottom : auto;
+}

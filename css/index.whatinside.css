@@ -1,0 +1,55 @@
+@import url(global.css);
+
+.water-info {
+  background-color: var(--dark-background-color);
+  padding-top: 90px;
+  padding-bottom: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.water-info__title {
+  color: #78ee4a;
+  font-size : 12px;
+  font-family: "Work Sans";
+}
+
+.water-info__subtitle{
+  color: white;
+  font-size: 46px;
+  font-family: Nunito;
+  font-weight: 700;
+}
+.water-info__mineral-title{
+  font-size: 18px;
+  color: white;
+}
+
+.water-info__mineral-description{
+  font-size: 19px;
+  color: #c2c9dc;
+  font-family: "Work Sans", sans-serif;
+}
+
+.water-info__description{
+  font-size: 19px;
+  color: #d1d7ea;
+
+}
+
+.water-info__image-container{
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .water-info {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}

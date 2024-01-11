@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,800;1,6..12,300;1,6..12,800&family=Nunito:ital,wght@0,300;0,800;0,900;0,1000;1,300;1,800&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+    
+    --title-text-color: #21b6ff;    
+    --accent-text-color: #002579;  
+    --standart-text-color: #737793; 
+    --bold-text-color: #5c607c;    
+    --light-dark-text-color: #c2c9dc;
+    --container-width: 1200px;
+    --btn-dark-cooler: rgba(10, 10, 10, 0.85);        
+    --btn-light-cooler: rgba(33, 181, 255, 0.85);        
+    --form-shadow-color: rgba(0, 0, 0, 0.1);
+    --brightest-background-color: #f1f6fb;
+    --main-bg-color: #3498db;
+    --text-color: #ffffff;
+    --map-address-backgraund-color: rgba(255, 255, 255, 0.8);
+    --light-header-color: #002c8f;
+    --dark-background-color: #0035ac;
+    --light-background-color: #21b6ff;
+    --even-more-dark-background-color: #002d92;
+    --the-darkest-background-color:#002579; 
+    --avarage-background-color: #306fff;
+    --testimonials-background-color: #f2f7fc;
+    --testimonials-title-color: #5bace8;
+    --carousel-background-color: #f1f6fc;
+    --carousel-title-color: #1db6ff;
+    --carousel-slide-indicator-color: #212529;
+    --light-blueish-color: #20b6ff;
+    --slate-gray: #5c607c;
+    --light-text-color: #21b6ff;
+    --the-darkest-text-color: #002579;
+    --bald-text-color: #5c607c;
+    --accent-color: #78ee4a;
+    --footer-text-color: #d1d7ea; /*gray*/
+    --footer-line-color: #78ee4a; /*lime*/
+    --footer-title-color: #ffffff; /*white*/
+    --light-button-color: #21b6ff;
+    --dark-button-color: #002579;
+    --about-light-color: #ffffffba;
+    --news-backgraund-color: #f9fafc;
+    --natural-water-background-color: #0035ac;
+    --non-crafter-background-color: #001d5f;
+    --link-color: rgb(120,238,74);
+    --error-color:rgb(255, 0, 0);
+    --about-some-text: 'Nunito', sans-serif;
+    --button-font: 'Work Sans', sans-serif;
+    --button-font-size: 14.3px;
+    --button-font-color: #ffffff;
+    --button-font-spacing: 1.43px;
+
+    --bottle-water-bg-color: #f1f6fb;
+    --dark-bg-color: #002c8f;
+    --title-text-color: #21b6ff;
+    --description-text-color: #002570;
+    --subdescription-text-color: #5C607C;
+    --bottel-water-text-color: #5C607C;
+    --single-product-bg-color: #ffffff;
+    
+    --head-teg-text-size: 0.7em;
+    --head-name-text-size: 2.4em;
+    --head-text-size: 1.3em;
+    --tag-text-size: 1em;
+    --nane-text-size: 1.7em;
+    --text-size: 1.3em;
+    --footer-text-size: 15px;
+    --about-title-size: 55px ;
+    --about-teg-size: 12px;
+    --button-text-size: 14.3px;
+    --about-mobile-title-size: 38px;
+    --footer-mobile-title-size: 18px;
+    
+    --form-text-color: #6f85b5;
+}
+
+.none {
+    display: none !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container-water {
+    max-width: 1200px;
+    margin: auto;
+}

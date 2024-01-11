@@ -1,0 +1,136 @@
+.our-history {
+    font-family: 'Nunito', sans-serif;
+}
+
+.our-history__top {
+    display: grid;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.fresh-water__foto-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.our-history__whole-text {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 90px;
+}
+
+.our-history__text,
+.our-history__title {
+    margin-bottom: 20px;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+
+.our-history__text {
+    color: var(--title-text-color);
+    display: block; 
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-stretch: 100%;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 1.2px;
+    line-height: 20.04px;
+}
+
+.our-history__title {
+    box-sizing: border-box;
+    color: var(--accent-text-color);
+    display: block;
+    font-family: Nunito, sans-serif;
+    font-size: 38px;
+    font-stretch: 100%;
+    font-weight: 800;
+    height: auto;
+    line-height: 43.32px;
+    box-sizing: border-box;
+}
+
+.our-history__subtitle {
+    color: var(--bald-text-color);
+    display: block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 19px;
+    font-stretch: 100%;
+    font-weight: 600;
+    height: auto;
+    letter-spacing: normal;
+    line-height: 26.6px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-transform: none;
+    vertical-align: baseline;
+    width: auto;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+.our-history__paragraph {
+    box-sizing: border-box;
+    color: var(--bald-text-color);
+    display: block;
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: auto;
+    line-height: 23.8px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-transform: none;
+    vertical-align: baseline;
+    width: auto;
+}
+
+@media (min-width: 768px) {
+    .our-history__top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fresh-water__foto {
+        width: 100%;
+        height: 100%;
+    }
+    .fresh-water__foto-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .our-history__whole-text {
+        display: flex;
+        flex-direction: column;
+    }
+}
